@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet"  href="style.css">
+        <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script> 
+        <script type='text/javascript' src='google.js'></script>       
+    </head>
+    <body>
+    
+        <div class="nav-link">
+            <a class="nav-link-item" href="google-image-search.html">Google Image Search</a>
+            <a class="nav-link-item" href="google-advanced-search.html">Google Advanced Search</a>                
+        </div>
+        <div class="google-search">
+            <div class="google-image text-center" title="Google">
+                <img src="google_color.jpeg">
+            </div>
+              <form action="https://google.com/search">
+                <div class="input-group text-center">
+                    <div class="input-group-append">
+                        <span class="input-group-text"> <i class="fa fa-search" ></i></span>
+                    </div>
+                
+                    <input type="text" class="form-control" name="q" placeholder="Search Google or type URL">
+                   
+                </div>
+                <div class="text-center" layout="row">
+                     <input class="search-button" type="submit" value="Google Search">
+                     <input type="submit" name="btnI" id="searchx" value="I am Feeling Lucky" class="search-button">   
+                </div>
+            </form>
+            <!-- <form action="https://google.com/search">
+                <input type="text" class="form-control" name="q" placeholder="Search Google or type URL">
+                <input class="search-button" type="submit" value="Google Search">
+                <input type="submit" name="btnI" id="searchx" value="I am Feeling Lucky" class="search-button">    
+            </form>      -->
+        </div>
+   </body>
+</html>

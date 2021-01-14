@@ -1,0 +1,145 @@
+/* For Advanced Search page */
+*{
+    margin:0;
+    padding:0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size:100%;
+    vertical-align: baseline;
+    text-decoration: none;;
+}
+.google-logo-image{
+    height:32px;
+    width:92px;
+}
+.logo{
+    padding: 20px 0px 20px 20px;
+    background-color: #f1f1f1;
+}
+.google-image img{
+    margin: 100px auto 10px;
+    width:250px;
+    cursor: pointer;
+}
+.nav-link{
+    text-align: right;
+    float:right;
+}
+.nav-link-item{
+    margin-right: 10px;
+}
+.search-button{
+    background-color: #f2f2f2;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border:1px solid #f2f2f2;
+    border-radius: 4px;
+    color:#5F6368;
+    font-family: arial,sans-serif;
+    font-size:14px;
+    margin:11px 4px;
+    padding:0 16px;
+    line-height: 27px;
+    height:36px;
+    text-align: center;
+    cursor:pointer;
+
+}
+.input-group{
+    margin:13px auto 10px;
+    border-radius: 20px;
+    max-width: 550px;
+    background-color:#F5F5F5;
+    height: 50px;
+}
+.form-control{
+    border:none !important;
+    border-radius: 20px !important;
+    background-color: #F5F5F5 !important;
+    height: 50px;
+}
+.input-group-text{
+    background:  transparent !important;
+    border:none !important;
+}
+.appbar{
+    color:#d93025;
+    font-size:20px;
+    margin:25px 35px;
+}
+.divider{
+    border-bottom:1px solid #ebebeb;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    /* max-width: 1140px;
+    min-width: 200px; */
+    width:100%;
+    min-width: 60% !important;
+    margin: 20px 0 0 10px;
+    /* margin:40px 2% 0 45px; */
+}
+#maingrid{
+    min-width: 167px;
+}
+#grid{
+    height:30px;
+    display: grid;
+    padding:20px;
+    grid-column-gap: 2px;
+    grid-row-gap:2px;
+    grid-template-columns: 200px 500px auto;
+}
+.grid-item{
+    text-align: left;
+    font-size:100%;
+    padding:2px;
+    margin:5px;
+    min-width: 50%;
+    min-height: 41px;
+}
+.queryfields{
+    text-align: left;
+    font-size:90%;
+    padding:2px;
+}
+.small{
+    font-size:70%;
+}
+form{
+    max-width:100%;
+}
+input{
+    width: 95%; 
+    text-align: left;
+    padding-left: 5px;
+}
+.submitbutton{
+    border-radius: 2px;;
+    text-align: center;
+    height:27px;
+    width:150px;
+    margin-right: 20px;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-color: #4d90fe;
+    box-shadow: none;
+    border:1px solid #3079ed;
+    color:white;
+    float:right;
+
+}
+
+@media (max-width: 1056px) {
+    span.small {
+        display:none !important
+    }
+    input{
+        width: 80% !important; 
+        text-align: left;
+        padding-left: 5px;
+    }
+    .submitbutton{
+        margin-right:92px !important;
+    }
+   
+}
